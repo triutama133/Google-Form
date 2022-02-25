@@ -30,3 +30,26 @@ function myFunction() {
   //Logger.log(item[12].getId().toString());
 }
 
+#nextstep
+unction updateDropdownUsingTitle(title,values) {
+  var title = "Nama Penggerak Lokal (Kab. Bandung)";
+  var values = ["t","u","v"];
+  var items = form.getItems();
+  var titles = items.map(function(item){
+    return item.getTitle();
+  });
+
+  var pos = titles.indexOf(title);
+  var item = items[pos];
+  var itemID = item.getId();
+
+  
+  updateDropdown(itemID,values)
+}
+
+
+function updateDropdown(id,values) {
+  
+  var item = form.getItemById(id);
+  item.asListItem().setChoiceValues(values);
+}
