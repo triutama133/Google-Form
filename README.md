@@ -18,3 +18,15 @@ function myFunction() {
   //var item = form.getItems();
   //Logger.log(item[1].getId().toString());
 }
+
+#next step
+
+function myFunction() {
+  
+  var item = form.getItemById(1113489098);
+  var values = ["Ujang","Udin"];
+  item.asListItem().setChoiceValues(values);
+  //var item = form.getItems();
+  //Logger.log(item[12].getId().toString());
+}
+
