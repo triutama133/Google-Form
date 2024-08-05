@@ -1,4 +1,7 @@
-# Google-Form
+
+
+#This code is used for create automatically dropdown update on Google-Form by user update
+
 
 var ssID = "1P0lCkSWgpEPnRk-wvlVfSX2k3GbbI42EMbZgZ-_3QHM";
 var formID = "1S0Vi56Wz69uBc5PjhXhwqqtXPhno66HMjQbDBLy2gbk";
