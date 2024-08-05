@@ -1,6 +1,7 @@
 
 
 #This code is used for create automatically dropdown update on Google-Form by user update
+#using google app script
 
 
 var ssID = "1P0lCkSWgpEPnRk-wvlVfSX2k3GbbI42EMbZgZ-_3QHM";
